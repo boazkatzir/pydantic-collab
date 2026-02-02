@@ -332,3 +332,8 @@ See [`examples/`](examples/) for complete working examples:
 ```bash
 uv run --env-file .env examples/01_simple_chain.py
 ```
+
+
+## License 
+
+This project is licensed under the MIT License - see the LICENSE file for details.
