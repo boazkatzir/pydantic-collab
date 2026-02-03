@@ -12,7 +12,7 @@ dependencies = [
     "pydantic_ai_slim>=1.47.0",
 ]
 [project.urls]
-Homepage = "https://github.com/boazkatzir/pydantic-collab"
+Homepage = "https://github.com/Unfold-Security/pydantic-collab"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
