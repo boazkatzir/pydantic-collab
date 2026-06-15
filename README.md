@@ -6,9 +6,9 @@
 
 
 [![PyPI version](https://img.shields.io/pypi/v/pydantic-collab)](https://pypi.org/project/pydantic-collab/)
-[![Tests](https://img.shields.io/github/actions/workflow/status/boazkatzir/pydantic-collab/ci.yml?label=tests)](https://github.com/boazkatzir/pydantic-collab/actions)
-[![Coverage](https://codecov.io/gh/boazkatzir/pydantic-collab/branch/main/graph/badge.svg)](https://codecov.io/gh/boazkatzir/pydantic-collab)
-[![License](https://img.shields.io/pypi/l/pydantic-collab)](https://github.com/boazkatzir/pydantic-collab/blob/main/LICENSE)
+[![Tests](https://img.shields.io/github/actions/workflow/status/Unfold-Security/pydantic-collab/ci.yml?label=tests)](https://github.com/Unfold-Security/pydantic-collab/actions)
+[![Coverage](https://codecov.io/gh/Unfold-Security/pydantic-collab/branch/main/graph/badge.svg)](https://codecov.io/gh/Unfold-Security/pydantic-collab)
+[![License](https://img.shields.io/pypi/l/pydantic-collab)](https://github.com/Unfold-Security/pydantic-collab/blob/main/LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
 </div>
@@ -332,3 +332,8 @@ See [`examples/`](examples/) for complete working examples:
 ```bash
 uv run --env-file .env examples/01_simple_chain.py
 ```
+
+
+## License 
+
+This project is licensed under the MIT License - see the LICENSE file for details.
