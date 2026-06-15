@@ -27,7 +27,7 @@ from pydantic_ai import (
     models,
 )
 from pydantic_ai._agent_graph import HistoryProcessor
-from pydantic_ai.agent import AbstractAgent, AgentMetadata, EventStreamHandler, Instructions, NoneType
+from pydantic_ai.agent import AbstractAgent, AgentInstructions, AgentMetadata, EventStreamHandler, NoneType
 from pydantic_ai.builtin_tools import AbstractBuiltinTool
 from pydantic_ai.output import OutputSpec
 from pydantic_ai.tools import BuiltinToolFunc, ToolFuncEither, ToolsPrepareFunc
@@ -283,7 +283,7 @@ class CollabAgent:
         | Sequence[t_context_name | AgentMemory]
         | None = None,
         output_type: OutputSpec[OutputDataT] = str,
-        instructions: Instructions[AgentDepsT] = None,
+        instructions: AgentInstructions[AgentDepsT] = None,
         system_prompt: str | Sequence[str] = (),
         deps_type: type[AgentDepsT] = NoneType,
         name: str | None = None,
@@ -328,7 +328,7 @@ class CollabAgent:
         agent_handoffs: t_agent_desc | Sequence[t_agent_desc] = (),
         memory: dict[t_context_name, Literal['r', 'rw']] | Sequence[t_context_name] | t_context_name | None = None,
         output_type: OutputSpec[OutputDataT] = str,
-        instructions: Instructions[AgentDepsT] = None,
+        instructions: AgentInstructions[AgentDepsT] = None,
         system_prompt: str | Sequence[str] = (),
         deps_type: type[AgentDepsT] = NoneType,
         name: str | None = None,
